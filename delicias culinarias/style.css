@@ -1,0 +1,52 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegación */
+.barra-nav {
+    background-color: rgb(123, 167, 209);
+    color: rgba(255, 255, 255, 0.795);
+    padding: 1rem;
+    position: static;
+    top: 0;
+    width: 200%;
+}
+
+/*aqui van las img*/
+
+.pollo-rr{
+   justify-content: center;
+   width: 500px;
+}
+ /* Estilos de formulario de contacto */
+form {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin: 5rem;
+    
+    }
+    form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    }
+    form input,
+    form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    }
+    form button {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    }
